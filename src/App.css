@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 321px;
+  height: 241px;
+  background: url('grid.gif');
+  cursor: default;
 }
 
 .App-logo {
