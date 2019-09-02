@@ -33,5 +33,5 @@ function renderGraph(container) {
 }
 
 export default function GraphViewer() {
-	return <div ref={container => renderGraph(container)}></div>;
+	return <div className="graph-container" ref={container => renderGraph(container)}></div>;
 }
